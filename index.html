@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Map</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+      integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+      integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+      crossorigin=""
+    ></script>
+    <script defer src="./script.js"></script>
+
+    <div class="container">
+      <div id="map"></div>
+      <div id="card">
+        <h2>Click the map!</h2>
+        <div class="weather__container">
+          <!-- <div class="weather__data">
+            <div class="weather__location">
+              <div class="weather__city">${locationData.address.city},</div>
+              <div class="weather__country">
+                ${locationData.address.country}
+              </div>
+            </div>
+            <div class="weather__temperature">
+              <span>🌡${weatherData.dataseries[0].temp2m}</span>℃
+            </div>
+            <div class="weather__forecast">
+              ${weatherData.dataseries[0].prec_type}
+            </div>
+            <div class="weather__highlow">
+              <div class="weather__high">H:12℃</div>
+              <div class="weather__low">L:5℃</div>
+            </div>
+          </div>
+          <div class="weather__change">
+<div class="weather__change-now"></div>
+<div class="weather__change-3h"></div>
+<div class="weather__change-6h"></div>
+<div class="weather__change-9h"></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
